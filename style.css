@@ -1,0 +1,40 @@
+html {
+    text-align: center;
+    background-color: aqua
+}
+
+img {
+    width:400px;
+    border-radius: 60%;
+    margin-border: 50px;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10
+}
+
+.links {
+    float: left;
+    color: #41bf89;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 17px
+}
+
+.links:hover{
+    background-color: dodgerblue;
+}
+
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Roboto',cursive
+}
